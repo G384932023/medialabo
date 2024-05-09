@@ -1,9 +1,12 @@
+
 p {
 	color: navy;
 }
 
 p.info {
 	font-size: 10pt;
+	background-color:#dfdfdf;
+
 }
 
 h1 {
@@ -16,8 +19,8 @@ h2 {
 }
 
 div#zentai {
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	width: 1024px;
 }
 
