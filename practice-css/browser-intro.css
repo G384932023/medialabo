@@ -30,3 +30,9 @@ div#zentai > div {
 	padding-left: 5px;
 	background-color: #ffefaf;
 }
+img.sign {
+	float:right;
+	width: 100px;
+	height: 100px;
+	margin: 10px 0 10px 10px;
+}
