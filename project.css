@@ -5,3 +5,7 @@ h1{
 p{
     background-color: #dfdfdf;
 }
+li{
+    font-family:"GillSans",sans-serif;
+    border:solid;
+}
