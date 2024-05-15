@@ -1,5 +1,5 @@
 h1{
-    color:black;
+    color:#dfdfdf;
     text-shadow: rgba(172, 255, 47, 0.626);
 }
 p{
@@ -7,7 +7,5 @@ p{
 }
 li{
     font-family:"GillSans",sans-serif;
-    block-size:auto;
-    writing-mode:vertical-lr;
     border:solid;
 }
