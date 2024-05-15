@@ -33,12 +33,12 @@ div#zentai {
 	grid-auto-rows:200px 200px;
 	grid-gap: 10px;
 }
+img {
+	padding:5px;
+	float:right;
+}
 
 div#zentai > div {
 	margin-left: 5px;
 	background-color: #ffefaf;
-}
-img {
-	padding:5px;
-	float:right;
 }
