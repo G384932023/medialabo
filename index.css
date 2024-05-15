@@ -7,3 +7,12 @@ h2{
     background-color:greenyellow;
 
 }
+a:link {
+    color:greenyellow;
+}
+a:visited {
+    color:green;
+}
+a:hover {
+    text-decoration:none;
+}
