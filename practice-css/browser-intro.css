@@ -10,7 +10,7 @@ p.info {
 }
 
 h1{
-	text-shadow: navy
+	text-shadow: navy 1px 0 10px;
 }
 
 h2 {
