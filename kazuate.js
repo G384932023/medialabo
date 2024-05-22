@@ -4,6 +4,7 @@ console.log('答え（デバッグ用）: ' + kotae);
 
 // 入力回数（予想回数）
 let kaisu = 4;
+let kiroku;
 
 // 予想を4回実行する
 // 将来以下の hantei(); の4回の呼び出しを全て削除する
@@ -21,7 +22,7 @@ function hantei() {
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
-  kaisu=kaisu+1;
+kaisu=kaisu+1;
 kiroku=kiroku+1;
 console.log(kaisu+"回目の予想:"+yoso);
 if(kiroku<3){
@@ -37,7 +38,7 @@ if(kiroku<3){
   if(kotae===yoso){
     console.log("正解です。おめでとう!");
   }else {
-    console.log("まちがい。残念でした答えは"+"kotae"+"です。");
+    console.log("まちがい。残念でした答えは"+kotae+"です。");
   }
 }else if(kiroku>3){
   console.log("答えは"+kotae+"でした。すでにゲームは終わっています")
