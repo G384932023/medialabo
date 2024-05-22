@@ -21,25 +21,25 @@ function hantei() {
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
-}
-kaisu=kaisu+1;
+  kaisu=kaisu+1;
 kiroku=kiroku+1;
 console.log(kaisu+"回目の予想:"+yoso);
-if(kotae==yoso){
-  console.log("正解です。おめでとう!");
-  kiroku=3;
-}else if(kotae<yoso){
-  console.log("まちがい。答えはもっと小さいですよ");
-}else{
-  console.log("まちがい。答えはもっと大きいですよ");
-{
+if(kiroku<3){
+  if(kotae===yoso){
+    console.log("正解です。おめでとう!");
+    kiroku=3;
+  }else if(kotae<yoso){
+    console.log("まちがい。答えはもっと小さいですよ");
+  }else{
+    console.log("まちがい。答えはもっと大きいですよ");
+  }
 }else if(kiroku===3){
   if(kotae===yoso){
     console.log("正解です。おめでとう!");
-  }else{
-    console.log("まちがい。残念でした答えは"+kotae+"です。");
+  }else {
+    console.log("まちがい。残念でした答えは"+"kotae"+"です。");
   }
 }else if(kiroku>3){
-  console.log("答えは"+kotae+"でした。すでにゲームは終わっています");
+  console.log("答えは"+kotae+"でした。すでにゲームは終わっています")
 }
 }
