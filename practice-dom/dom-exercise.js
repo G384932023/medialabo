@@ -14,6 +14,13 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム
+let h2 = document.querySelector('h2#ex42');     // h2#addition 要素を検索
+
+let p = document.createElement('p');                // 新しい p要素を作成
+p.textContent = '写真と都市の緯度経度のページです';
+p.style.textEmphasis='sesame green';                              // 要素の color プロパティを設定
+
+h2.insertAdjacentElement('afterend', p);            // p要素をh2要素の直後に追加
 
 
 // 練習4-3 写真表作成プログラム
