@@ -1,9 +1,14 @@
 h1{
-    color:rgba(0, 0, 0, 0.6);
-    text-shadow: rgba(172, 255, 47, 0.626);
+    color:rgba(255, 128, 0, 0.838)
+}
+h1{
+    text-shadow:rgba(255, 0, 0, 0.546)
 }
 p{
-    background-color: #dfdfdf;
+    background-color: #dfdfdf00;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.386);
 }
 li{
     font-family:"GillSans",sans-serif;
